@@ -70,12 +70,14 @@ const Chartgraph = () => {
 			},
 			data: [{
 				type: "doughnut",
+        radius:  "100%",
 				// showInLegend: true,
 				// legendText: "{label}",
 				toolTipContent: "<strong>{y}%</strong> : {label}",
 				indexLabel: "{y}%",
 				indexLabelPlacement: "inside",
-        indexLabelColor:'#fff',
+        indexLabelFontSize: 18,
+        indexLabelFontColor: "#fff",
 				dataPoints: [
 					{color:'#4892EA', y: 10, label: "will go to the dev wallet to fund Developers salary and future marketing costs" },
 					{color:'#0AD7E4', y: 30, label: "will go to buybacks of the token to reduce whale selling power and increase market stability" },

@@ -11,6 +11,26 @@ import 'aos/dist/aos.css';
 const Header = () => {
     const [trading, setTrading] = useState('Open')
 
+
+        useEffect(() => {
+            setInterval(() => {
+                let date = new Date()
+                const Hours = new Date(date.toLocaleString('en-US',{
+                timeZone: 'America/New_York',
+                hour12: false,
+                hour: '2-digit'
+                }));
+
+                if ( Hours >= 9 && Hours <= 16) {
+                setTrading('Open')
+                }
+                else{
+                setTrading('Close')
+                }
+
+            }, 1000);
+    }, []);
+
         useEffect(() => {
     
     AOS.init({duration:3000});

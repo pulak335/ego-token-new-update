@@ -208,10 +208,13 @@
 .time-box-container {
   margin: auto;
   margin-top: 50px;
-  width: 30%;
+  width: 80%;
   border-radius: 8px;
   padding: 5px 20px;
   height: 110px;
+}
+.time-box-all {
+  margin-right: 35px px;
 }
 
 .time-container h4 {
@@ -256,7 +259,7 @@
     rgba(23, 116, 255, 0.6) 0.9%,
     rgba(0, 102, 254, 0.288) 100%
   );
-  backdrop-filter: blur(10px);
+  /* backdrop-filter: blur(10px); */
   /* Note: backdrop-filter has minimal browser support */
   border-radius: 8px;
   margin-top: 80px;
@@ -277,7 +280,7 @@
     rgba(23, 116, 255, 0.6) 0.9%,
     rgba(0, 102, 254, 0.288) 100%
   );
-  backdrop-filter: blur(10px);
+  /* backdrop-filter: blur(10px); */
   border-radius: 8px;
   margin-top: 40px;
 }
@@ -295,7 +298,7 @@
     rgba(23, 116, 255, 0.6) 0.9%,
     rgba(0, 102, 254, 0.288) 100%
   );
-  backdrop-filter: blur(10px);
+  /* backdrop-filter: blur(10px); */
   border-radius: 8px;
   margin-top: 40px;
 }

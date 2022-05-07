@@ -2,11 +2,10 @@ import React, { useEffect } from "react";
 import "./Pancakeswap.css";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import Clip from "../../../../assets/icons/clip 16.svg";
-
 import Analysis from "../../../../assets/data-analysis.gif";
-
 import AOS from "aos";
 import "aos/dist/aos.css";
+
 
 const Pancakeswap = () => {
   useEffect(() => {

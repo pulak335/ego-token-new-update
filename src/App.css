@@ -31,7 +31,19 @@ body{
     -webkit-overflow-scrolling: auto;
     -webkit-overflow-scrolling: touch;
 }
+.graph-heading{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 108px;
+  text-align: center;
+  color: #F2F2F2;
+}
 
+.canvasjs-chart-credit{
+  display: none;
+}
 @media (min-width: 250px) and (max-width: 600px) {
   body::-webkit-scrollbar {
     width: 6px;

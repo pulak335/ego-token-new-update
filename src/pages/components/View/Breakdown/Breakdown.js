@@ -8,6 +8,7 @@ import Treding2 from "../../../../assets/cripto-walltet-icon/Ellipse 015.png";
 import Treding3 from "../../../../assets/cripto-walltet-icon/Ellipse 016.png";
 import Treding4 from "../../../../assets/cripto-walltet-icon/Ellipse 017.png";
 import Treding5 from "../../../../assets/cripto-walltet-icon/Ellipse 018.png";
+import Chartgraph from "../../common/Chartgraph";
 // import Clock from '../../common/Clock';
 
 const Breakdown = () => {
@@ -15,6 +16,7 @@ const Breakdown = () => {
     const [trading, setTrading] = useState();
 
     const [SecState, setSecState] = useState(null);
+    const [SecStateLocal, setSecStateLocal] = useState(null);
 
     useEffect(() => {
       setInterval(() => {
@@ -25,12 +27,17 @@ const Breakdown = () => {
             minute: '2-digit',
             second: '2-digit',
           }));
+        setSecStateLocal(date.toLocaleString('en-US', {
+            hour: '2-digit',
+            minute: '2-digit',
+            second: '2-digit',
+          }));
 
         const Hours = new Date(date.toLocaleString('en-US',{
           timeZone: 'America/New_York',
           hour12: false,
           hour: '2-digit'
-        })); 
+        }));
 
         if ( Hours >= 9 && Hours <= 16) {
           setTrading(true)
@@ -101,6 +108,11 @@ const Breakdown = () => {
                 </div>
               </div>
             </div>
+
+            <div className="mt-5">
+              <Chartgraph/>
+            </div>
+
             <div className="row  time-container-2">
               <h6 className="let-text">Let your Ego rest with you</h6>
                       <div className="row time-container">
@@ -121,11 +133,23 @@ const Breakdown = () => {
               </div>
               <p>Minutes</p>
             </div> */}
-            <div>
-              <div
+            <div className="d-flex justify-content-between">
+              <div className="time-box-all">
+                <h5 style={{textAlign:'left'}}>EST TIME</h5>
+                <div
                 className={`time-box ${trading ? "green-text" : "red-text"}`}
               >
                 {SecState}
+              </div>
+              </div>
+
+              <div className="mr-5">
+                <h5 style={{textAlign:'right'}}>LOCAL TIME</h5>
+                <div
+                className={` time-box ${trading ? "green-text" : "red-text"} `}
+                >
+                {SecStateLocal}
+              </div>
               </div>
             </div>
           </div>

@@ -19,7 +19,7 @@ const Specialities = () => {
         <div>
             <div className="special-container" data-aos="fade-up">
                 <h1 className='special-title'>Our Specialities</h1>
-                <h2 className='special-subtitle'>Let us know  you how we operate</h2>
+                <h2 className='special-subtitle'>HOW WE OPERATE</h2>
                     
                 <div className="fqa-special-container">
                     <SpicalFQA/>

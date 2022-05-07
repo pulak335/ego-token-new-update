@@ -13,7 +13,7 @@ const Footer = () => {
     <div className="footer-bg">
       <div className="footer-container">
         <h1 className="footer-title">Don't miss out, Stay updated</h1>
-        <div className="input-box d-flex justify-content-between">
+        {/* <div className="input-box d-flex justify-content-between">
           <input
             type="email"
             name=""
@@ -22,7 +22,7 @@ const Footer = () => {
             className="email-input"
           />
           <input type="button" value="Subscribe" className="submit-btn" />
-        </div>
+        </div> */}
         <p className="footer-text">
           Don't hesitate to subscribe to latest news about ICo markets as well
           as crucial financial knowledge to become successful investors globally
@@ -48,7 +48,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i className="fa  fa-globe"></i>
+            <i className="fa  fa-youtube"></i>
           </a>
           <a
             href="https://t.me/egosystem"

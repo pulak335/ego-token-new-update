@@ -126,9 +126,8 @@
 .treding-hour-container-time-line {
   background-image: url("../../../../assets/bg-imgae/tradding-timeline.png");
   background-repeat: no-repeat;
-  background-position: bottom left;
+  background-position: center;
   background-size: contain;
-  padding-bottom: 210px;
   margin-top: 280px;
 }
 
@@ -251,7 +250,7 @@
   line-height: 45px;
   text-align: center;
   color: #ffffff;
-  padding: 32px 240px;
+  padding: 32px 238px;
   background: linear-gradient(
     91.39deg,
     rgba(23, 116, 255, 0.6) 0.9%,
@@ -272,7 +271,7 @@
   line-height: 45px;
   text-align: center;
   color: #ffffff;
-  padding: 32px 243px;
+  padding: 32px 238px;
   background: linear-gradient(
     91.39deg,
     rgba(23, 116, 255, 0.6) 0.9%,
@@ -290,7 +289,7 @@
   line-height: 45px;
   text-align: center;
   color: #ffffff;
-  padding: 32px 126px;
+  padding: 32px 124px;
   background: linear-gradient(
     91.39deg,
     rgba(23, 116, 255, 0.6) 0.9%,

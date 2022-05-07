@@ -50,34 +50,6 @@ const Breakdown = () => {
   return (
     <div className="Breakdown-bg">
       <div className="graph-container">
-        <div className="row time-container">
-          <div className="text-white text-center d-flex justify-content-center time-box-container">
-            {/* <div> */}
-              {/* <div
-                className={`time-box ${trading ? "green-text" : "red-text"}`}
-              >
-                {HourState}
-              </div>
-              <p>Hour</p>
-            </div>
-            <div>
-              <div
-                className={`time-box ${trading ? "green-text" : "red-text"}`}
-              >
-                {MinsState}
-              </div>
-              <p>Minutes</p>
-            </div> */}
-            <div>
-              <div
-                className={`time-box ${trading ? "green-text" : "red-text"}`}
-              >
-                {SecState}
-              </div>
-            </div>
-          </div>
-        </div>
-
         <div className="Breakdown-container" data-aos="fade-up">
           <div className="title">
             <div
@@ -131,6 +103,33 @@ const Breakdown = () => {
             </div>
             <div className="row  time-container-2">
               <h6 className="let-text">Let your Ego rest with you</h6>
+                      <div className="row time-container">
+          <div className="text-white text-center d-flex justify-content-center time-box-container">
+            {/* <div> */}
+              {/* <div
+                className={`time-box ${trading ? "green-text" : "red-text"}`}
+              >
+                {HourState}
+              </div>
+              <p>Hour</p>
+            </div>
+            <div>
+              <div
+                className={`time-box ${trading ? "green-text" : "red-text"}`}
+              >
+                {MinsState}
+              </div>
+              <p>Minutes</p>
+            </div> */}
+            <div>
+              <div
+                className={`time-box ${trading ? "green-text" : "red-text"}`}
+              >
+                {SecState}
+              </div>
+            </div>
+          </div>
+        </div>
               {/* <div className="text-white text-center d-flex justify-content-between time-box-container">
                 <div>
                   <div
@@ -173,11 +172,11 @@ const Breakdown = () => {
               <h1 className="time-shedule-title">Staking Rewards</h1>
 
               <div className="time-shedule-container">
-                <h2 className="time-1">7 DAYS = 2.5%</h2>
-                <h2 className="time-2">30 DAYS = 15%</h2>
-                <h2 className="time-3">90 DAYS = 30% every 30 days</h2>
+                <h2 className="time-1">7 DAYS at 2.5%</h2>
+                <h2 className="time-2">30 DAYS at 15%</h2>
+                <h2 className="time-3">90 DAYS at 30% every 30 days</h2>
               </div>
-              <div className="treding-hour-container" data-aos="fade-up">
+              {/* <div className="treding-hour-container" data-aos="fade-up">
                 <h2>Trading Hours</h2>
                 <p className="treding-hour-container-text">
                   The EGO Token will operate solely during weekdays on New York
@@ -186,11 +185,7 @@ const Breakdown = () => {
                   Exchange Hours. You can now sleep easy at night knowing that
                   you won’t wake up to a crashed portfolio!
                 </p>
-              </div>
-
-              <div className="d-none clock-section">{/* <Clock/> */}</div>
-
-              <div></div>
+              </div> */}
             </div>
           </div>
         </div>

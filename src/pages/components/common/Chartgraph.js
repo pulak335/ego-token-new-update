@@ -71,6 +71,7 @@ const Chartgraph = () => {
 			data: [{
 				type: "doughnut",
         radius:  "100%",
+        innerRadius: "50%",
 				// showInLegend: true,
 				// legendText: "{label}",
 				toolTipContent: "<strong>{y}%</strong> : {label}",

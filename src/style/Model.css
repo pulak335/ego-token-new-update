@@ -1,6 +1,6 @@
 .Model-img {
-    width: 710px;
-    height: 525px;
+    max-width: 710px;
+    max-height: 525px;
     background: black !important;
 }
 

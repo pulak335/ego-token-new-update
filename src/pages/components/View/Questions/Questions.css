@@ -3,7 +3,7 @@
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom;
-  width: 1238px;
+  max-width: 1238px;
   margin: 0 auto 100px auto;
   padding-top: 235px;
 }

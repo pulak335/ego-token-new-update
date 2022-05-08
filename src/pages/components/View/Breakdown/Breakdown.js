@@ -71,37 +71,48 @@ const Breakdown = () => {
         <div className="treding-bg">
           <div className="treding-container">
             <div className="treding-icon row" data-aos="fade-up">
-              <div className="icon-box col col-md col-sm-12 col-sm-12 col-xs-12">
-                <img src={Treding1} alt="" srcSet="" className="treading-img" />
+              <div className="icon-box col-md col-sm-12">
+                {/* <img src={Treding1} alt="" srcSet="" className="treading-img" /> */}
+                <div className="img text-center">
+                  <img src={Treding1} alt="" srcSet="" />
+                </div>
                 <div className="treding-text">
                   <h3>Supply</h3>
                   <p>1,000,000,000</p>
                 </div>
               </div>
 
-              <div className="icon-box col col-md col-sm-12 col-xs-12">
-                <img src={Treding2} alt="" srcSet="" />
+              <div className="icon-box col-md col-sm-12">
+                <div className="img text-center">
+                  <img src={Treding2} alt="" srcSet="" />
+                </div>
                 <div className="treding-text">
                   <h3>Max Wallet</h3>
                   <p>25,000,000</p>
                 </div>
               </div>
-              <div className="icon-box col col-md col-sm-12 col-xs-12">
-                <img src={Treding3} alt="" srcSet="" />
+              <div className="icon-box col-md col-sm-12">
+                <div className="img text-center">
+                  <img src={Treding3} alt="" srcSet="" />
+                </div>
                 <div className="treding-text">
                   <h3>Max Buy</h3>
                   <p>10,000,000</p>
                 </div>
               </div>
-              <div className="icon-box col col-md col-sm-12 col-xs-12">
-                <img src={Treding4} alt="" srcSet="" />
+              <div className="icon-box col-md col-sm-12">
+                <div className="img text-center">
+                  <img src={Treding4} alt="" srcSet="" />
+                </div>
                 <div className="treding-text">
                   <h3>Max Sell</h3>
                   <p>5,000,000</p>
                 </div>
               </div>
-              <div className="icon-box col col-md col-sm-12 col-xs-12">
-                <img src={Treding5} alt="" srcSet="" />
+              <div className="icon-box col-md col-sm-12">
+                <div className="img text-center">
+                  <img src={Treding5} alt="" srcSet="" />
+                </div>
                 <div className="treding-text">
                   <h3>Cool Down</h3>
                   <p>60 Seconds</p>

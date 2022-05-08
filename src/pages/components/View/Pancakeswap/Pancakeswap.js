@@ -14,8 +14,8 @@ const Pancakeswap = () => {
 
   return (
     <div className="pancakeswap-bg">
-      <div className="row" data-aos="fade-up">
-        <div className="swap col-6 col-md-6 col-sm-12 col-xs-12 mt-3">
+      <div className="row swap-display" data-aos="fade-up">
+        <div className="swap col-md-6 col-sm-12 mt-3 mx-auto ">
           <h3 className="swap-subtitle">Buy EGO on</h3>
           <h1 className="swap-title">Pancakeswap</h1>
           <div className="swap-text d-flex align-items-center">
@@ -70,7 +70,7 @@ const Pancakeswap = () => {
           </div>
         </div>
 
-        <div className="swap-img swap col-6 col-md-6 col-sm-12 col-xs-12">
+        <div className="swap-img swap col-md-6 col-sm-12">
           <img src={Analysis} alt="" srcSet="" />
         </div>
       </div>

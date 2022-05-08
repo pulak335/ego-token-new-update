@@ -3,7 +3,7 @@
             background-repeat: no-repeat;
             background-size: contain;
             background-position: center;
-            width: 1238px;
+            max-width: 1238px;
             margin: 0 auto;
             padding: 385px 0;
 }
@@ -42,7 +42,7 @@
 }
 
 .swap-img img{
-    width: 433px;
+    max-width: 433px;
     height: 409px;
     border-radius: 24px;
     margin-left: 150px;
@@ -54,38 +54,67 @@
 
 
 
-@media (min-width: 576px) and (max-width: 767px){
+@media (min-width: 250px) and (max-width: 600px){
     .pancakeswap-bg {
-            width: 100%;
+            width: 80%;
             margin: 0 auto;
         }
     .swap-subtitle {
         font-size: 38px;
+        text-align: center;
     }
     .swap-title{
         font-size: 48px;
+        text-align: center;
     }
-    .swap-img >img {
-        width: 433px;
-        height: 409px;
-        border-radius: 24px;
-        margin:0 auto;
-        margin-left: 0;
-    }
+
 
     .pancakeswap-bg {
         background-image: url('../../../../assets/bg-imgae/Colors-footer.png');
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
-        width: 1238px;
-        margin: 0 auto;
     }
     .swap-text {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 36px;
+        font-size: 20px;
+    }
+    .swap{
+        margin-bottom: 25px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1000px) {
+    .pancakeswap-bg {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .swap-subtitle {
+        font-size: 38px;
+        text-align: center;
+    }
+
+    .swap-title {
+        font-size: 48px;
+        text-align: center;
+    }
+
+
+    .pancakeswap-bg {
+        background-image: url('../../../../assets/bg-imgae/Colors-footer.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+    .swap-text {
+        font-size: 20px;
+    }
+
+    .swap {
+        margin-bottom: 25px;
+    }
+    .swap-display{
+        display: block;
     }
 }

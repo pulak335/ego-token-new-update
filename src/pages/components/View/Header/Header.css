@@ -28,7 +28,7 @@
 
 }
 .header-title{
-    width: 936px;
+    max-width: 936px;
     margin: 0 auto;
 }
 .header-title>h1{
@@ -212,7 +212,7 @@ responsive for mobile view
 
 
 
-@media (min-width: 610px) and (max-width: 1100px) {
+@media (min-width: 601px) and (max-width: 1100px) {
 
     .header-bg {
         background-image: none;
@@ -220,7 +220,7 @@ responsive for mobile view
     }
 
     .header-container {
-        max-width: 100%;
+        width: 100%;
     }
 
     .time-box {

@@ -1,4 +1,4 @@
-.logo img {
+/* .logo img {
   width: 106px;
   height: 49px;
 }
@@ -65,18 +65,14 @@
   color: #ffffff;
 }
 
-.button-toggle {
-  margin-right: 270px;
-  color: rgb(0, 0, 0);
-}
 
 .icon-style {
   color: #fff;
   font-size: 24px;
   z-index: 5;
-}
+} */
 
-@media (min-width: 250px) and (max-width: 600px) {
+/* @media (min-width: 250px) and (max-width: 600px) {
   .logo img {
     width: 60px;
     height: 19px;
@@ -147,9 +143,9 @@
     font-size: 24px;
     z-index: 5;
   }
-}
+} */
 
-@media (min-width: 650px) and (max-width: 1290px) {
+/* @media (min-width: 650px) and (max-width: 1290px) {
   .collapse:not(.show) {
     display: block;
   }
@@ -225,4 +221,50 @@
     font-size: 24px;
     z-index: 5;
   }
+} */
+
+.logo {
+  width: 106px;
+  height: 49px;
+}
+
+.nav-item a:active {
+  color: #fff;
+}
+
+.nav-item a:focus {
+  color: #fff;
+}
+.nav-item a{
+  text-decoration: none;
+  color:#fff;
+  margin-right: 20px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+.buy-btn {
+  border: none;
+  padding: 10px 34px;
+  text-decoration: none;
+  background: linear-gradient(109.06deg, #5ca0e4 37.16%, #a74eed 85.69%);
+  border-radius: 5px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  transition: 0.5s;
+}
+
+.buy-btn:hover {
+  padding: 10px 34px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #ffffff;
 }

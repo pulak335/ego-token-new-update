@@ -19,12 +19,12 @@ const Roadmap = () => {
       <div className="road-map">
         <h2>Road map</h2>
         <h1>Our Strategy & Project Plan</h1>
-        <div className="d-flex justify-contain-between">
+        <div className="d-flex justify-contain-md-between roadmap-res">
           {/* card start here  */}
           <div className="card-1">
             <div className="road-card-1">
               <h1>
-                Q<span>2</span>
+                Q<span>1</span>
               </h1>
             </div>
 
@@ -52,7 +52,7 @@ const Roadmap = () => {
                   <i
                     onClick={() => setToggle(!toggle)}
                     style={{ cursor: "pointer" }}
-                    class={`fa-solid fa-angle-right ${
+                    className={`fa-solid fa-angle-right ${
                       toggle ? "rotateIcon" : ""
                     }`}
                   ></i>
@@ -70,7 +70,7 @@ const Roadmap = () => {
                   <i
                     onClick={() => setToggleTwo(!toggleTwo)}
                     style={{ cursor: "pointer" }}
-                    class={`fa-solid fa-angle-right ${
+                    className={`fa-solid fa-angle-right ${
                       toggleTwo ? "rotateIcon" : ""
                     }`}
                   ></i>
@@ -85,7 +85,7 @@ const Roadmap = () => {
             <div>
               <div className="road-card-2">
                 <h1>
-                  Q<span>3</span>
+                  Q<span>2</span>
                 </h1>
               </div>
               <div className="road-card-options-2">
@@ -102,7 +102,7 @@ const Roadmap = () => {
             <div className="road-card-3-map">
               <div className="road-card-3">
                 <h1>
-                  Q<span>4</span>
+                  Q<span>3</span>
                 </h1>
               </div>
               <div className="road-card-options-3">
@@ -115,7 +115,7 @@ const Roadmap = () => {
                       Become a bank within the metaverse
                       <ul className={`subToggle${toggle3 ? "open" : ""}`}>
                         <li>What metaverse will we operate in?</li>
-                        <li class="fa-solid fa-arrow-right">
+                        <li className="fa-solid fa-arrow-right">
                           <span className="fa-costm">
                             {" "}
                             Hold metaverse currency?
@@ -126,7 +126,7 @@ const Roadmap = () => {
                     <i
                       onClick={() => setToggle3(!toggle3)}
                       style={{ cursor: "pointer" }}
-                      class={`fa-solid fa-angle-right ${
+                      className={`fa-solid fa-angle-right ${
                         toggle3 ? "rotateIcon" : ""
                       }`}
                     ></i>
@@ -143,13 +143,13 @@ const Roadmap = () => {
                           Gifting a EGO holder with the keys to financial
                           freedom
                         </li>
-                        <li class="fa-solid fa-arrow-right">
+                        <li className="fa-solid fa-arrow-right">
                           <span className="fa-costm">
                             {" "}
                             Pledge to give to charity?
                           </span>
                         </li>
-                        <li class="fa-solid fa-arrow-right">
+                        <li className="fa-solid fa-arrow-right">
                           {" "}
                           <span className="fa-costm">
                             {" "}
@@ -161,7 +161,7 @@ const Roadmap = () => {
                     <i
                       onClick={() => setToggle4(!toggle4)}
                       style={{ cursor: "pointer" }}
-                      class={`fa-solid fa-angle-right ${
+                      className={`fa-solid fa-angle-right ${
                         toggle4 ? "rotateIcon" : ""
                       }`}
                     ></i>

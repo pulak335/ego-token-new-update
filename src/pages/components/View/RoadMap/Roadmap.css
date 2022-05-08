@@ -106,7 +106,7 @@
 }
 
 .road-card-options > ul {
-  width: 428px;
+  max-width: 428px;
   padding: 32px;
   margin-left: 15px;
   margin-top: 25px;
@@ -235,13 +235,12 @@
   font-size: 16px;
   line-height: 24px;
   height: 480px;
-  /* identical to box height */
 
   color: #ffffff;
 }
 
 .road-card-options-3 > ul {
-  width: 428px;
+  max-width: 428px;
   padding: 32px;
   margin-left: 15px;
   margin-top: 30px;
@@ -256,7 +255,6 @@
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
-  /* identical to box height */
   color: #ffffff;
 }
 
@@ -280,22 +278,14 @@
 }
 
 @media (min-width: 250px) and (max-width: 600px) {
+
   .road-map-bg {
-    background-image: url("../../../../assets/bg-imgae/roadmap-bg.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    height: 100%;
+    background-image: none;
     width: 100%;
-    margin-bottom: 10px;
   }
 
   .road-map {
-    background-image: none;
-    background-repeat: no-repeat;
-    background-size: contain;
-    max-width: 100%;
-    max-height: 100%;
+    width: 90%;
     margin: 0 auto;
   }
 
@@ -326,25 +316,17 @@
   }
 
   .road-map-view {
-    margin-top: 210px;
-    margin-bottom: 580px;
-    margin-left: 120px;
-    background-image: url("../../../../assets/border-img/border-1.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+    background-image: none;
   }
 
-  .border-wrap {
-    background-image: url("../../../../assets/border-img/border-1.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: bottom center;
-    width: 770px;
-    height: 453.19px;
-    margin: 0 auto;
-  }
 }
+
+
+
+
+
+
+
 
 .subToggle {
   display: none !important;
@@ -359,3 +341,13 @@
 /* .rotateIcon {
     transform: rotate(-90deg);
 } */
+
+@media (min-width: 610px) and (max-width: 1000px){
+  .road-map-bg {
+    background-image: none;
+  }
+
+  .roadmap-res{
+    display: block;
+  }
+}

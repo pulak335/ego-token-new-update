@@ -9,7 +9,7 @@
 }
 
 .special-container {
-  width: 1320px;
+  max-width: 1320px;
   margin: 0 auto;
 }
 .special-card-container {
@@ -39,23 +39,23 @@
 }
 
 .card-box-container {
-  width: 1320px;
+  max-width: 1320px;
 }
 .card-content {
-  width: 369px;
+  max-width: 369px;
   margin: 0 auto;
 }
 .card-content-2 {
-  width: 369px;
+  max-width: 369px;
   margin: 0 auto;
 }
 .card-content-3 {
-  width: 369px;
+  max-width: 369px;
   margin: 0 auto;
 }
 
 .card-content-text {
-  width: 369px;
+  max-width: 369px;
 }
 
 .card-content-text h2 {
@@ -140,7 +140,7 @@
     background-size: 100%;
     background-position: center;
     height: 100%;
-    width: 100%;
+    max-width: 100%;
     margin-top: 10px;
   }
 
@@ -215,9 +215,9 @@
     line-height: 20px;
     text-transform: capitalize;
     background: linear-gradient(106.22deg, #0085ff -41.18%, #c15cff 81.41%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-clip: text;
   }
 
   .card-content-pre-2 {
@@ -257,61 +257,6 @@
     width: 80px;
     height: 80px;
   }
-
-  .road-map-bg {
-    background-image: url("../../../../assets/bg-imgae/roadmap-bg.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: left center;
-    height: 100%;
-    width: 100%;
-    margin-bottom: 50px;
-  }
-
-  .road-map {
-    background-image: url("../../../../assets/bg-imgae/roadmap-bg-2.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    max-width: 100%;
-    max-height: 100%;
-    margin: 0 auto;
-  }
-
-  .road-map h2 {
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 60px;
-    text-align: center;
-    text-transform: uppercase;
-
-    color: #ffffff;
-  }
-
-  .road-map h1 {
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 72px;
-    text-align: center;
-    background: linear-gradient(106.22deg, #0085ff -41.18%, #c15cff 81.41%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-  }
-
-  .road-map-view {
-    margin-top: 210px;
-    margin-bottom: 580px;
-    margin-left: 120px;
-    background-image: url("../../../../assets/border-img/border-1.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-  }
-
   .border-wrap {
     background-image: url("../../../../assets/border-img/border-1.png");
     background-repeat: no-repeat;
